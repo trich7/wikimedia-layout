@@ -12,6 +12,11 @@ body {
 .toptext p {
 	font-size: 22px;
 	text-align: justify;
+	padding: 0px 60px;
+}
+
+.tada {
+	padding-right: 60px;
 }
 
 a {
@@ -53,10 +58,18 @@ a:visited {
 	float:left;
 	margin:20px 0px;
 	text-align: center;
+	vertical-align: middle;
+	display:table-cell;
 }
 
 .column img {
 	margin:auto;
+}
+
+.column span {
+    display: inline-block;
+    height: 100%;
+    width: 1px;
 }
 
 .footer {
